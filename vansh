@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Photo Gallery</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+            background-color: #f4f4f4;
+        }
+        header {
+            background: #333;
+            color: #fff;
+            padding: 10px 0;
+        }
+        h1 {
+            margin: 0;
+        }
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 10px;
+            padding: 20px;
+        }
+        .gallery img {
+            width: 100%;
+            height: auto;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+        }
+        .caption {
+            font-size: 0.9em;
+            color: #555;
+            margin-top: 5px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>My Photo Gallery</h1>
+    </header>
+    <div class="gallery">
+        <div>
+            <img src="https://instagram.fbho3-2.fna.fbcdn.net/v/t51.2885-19/468603044_1126401242261875_1987527706376968387_n.jpg?stp=dst-jpg_s150x150&_nc_ht=instagram.fbho3-2.fna.fbcdn.net&_nc_cat=107&_nc_ohc=C3h1gKRScMEQ7kNvgHkJ20n&_nc_gid=e273d5b79a9c4508a1c78245d5419c36&edm=APoiHPcBAAAA&ccb=7-5&oh=00_AYBmyxPOg5_SLjYDxCrfVXNXfJIoT4BCRasGfwHxW_I5vw&oe=6752261F&_nc_sid=22de04" alt="Photo 1">
+            
+        </div>
+    </div>
+</body>
+</html>
